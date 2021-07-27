@@ -1,0 +1,46 @@
+{
+    "routes": [
+        {
+            "id": 1,
+            "title": "Screen One",
+            "route": "ScreenOne",
+            "key": "screenone",
+            "icon": "home"
+        },
+        {
+            "id": 2,
+            "title": "Screen Two",
+            "route": "ScreenTwo",
+            "key": "screentwo",
+            "icon": "auto-awesome-mosaic"
+        },
+        {
+            "id": 3,
+            "title": "Screen Three",
+            "key": "screenthree",
+            "route": "ScreenThree",
+            "icon": "view-list"
+        },
+        {
+            "id": 4,
+            "title": "Screen Four",
+            "route": "ScreenFour",
+            "key": "screenfour",
+            "icon": "person"
+        },
+        {
+            "id": 5,
+            "title": "Screen Five",
+            "route": "ScreenFive",
+            "key": "screenfive",
+            "icon": "notifications"
+        },
+        {
+            "id": 6,
+            "title": "Screen Six",
+            "route": "ScreenSix",
+            "key": "screensix",
+            "icon": "view-carousel"
+        }
+    ]
+}
