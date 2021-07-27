@@ -15,7 +15,9 @@ export default class ScreenThree extends Component {
       hindiAree: ["प्रदर्शन", "बुनियादी", "पेशेवर"],
     };
   }
-
+  goAhead=()=>{
+    this.props.navigation.navigate('ScreenFour')
+  }
   render() {
     return (
       <>
@@ -48,7 +50,7 @@ export default class ScreenThree extends Component {
             })}
           </View>
           <View style={commonUI.flex2Container}>
-            <SpeechButton />
+            <SpeechButton onPress={this.goAhead} />
           </View>
         </View>
       </>

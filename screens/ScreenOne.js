@@ -12,6 +12,11 @@ export default class ScreenOne extends Component {
     this.state = {};
   }
 
+
+goAhead=()=>{
+  this.props.navigation.navigate('ScreenTwo')
+}
+
   render() {
     return (
       <>
@@ -26,7 +31,7 @@ export default class ScreenOne extends Component {
             </Text>
           </View>
           <View style={commonUI.flex4Container}>
-            <SpeechButton />
+            <SpeechButton onPress={this.goAhead} />
           </View>
         </View>
       </>

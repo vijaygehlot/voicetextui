@@ -12,7 +12,9 @@ export default class ScreenFive extends Component {
     super(props);
     this.state = {};
   }
-
+  goAhead=()=>{
+    this.props.navigation.navigate('ScreenSix')
+  }
   render() {
     return (
       <>
@@ -56,7 +58,7 @@ export default class ScreenFive extends Component {
             </Text>
           </View>
           <View style={commonUI.flex2Container}>
-            <SpeechButton />
+            <SpeechButton onPress={this.goAhead} />
           </View>
         </View>
       </>
